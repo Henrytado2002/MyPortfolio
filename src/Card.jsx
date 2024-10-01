@@ -1,11 +1,17 @@
 import "./cards.css"
 
-function Card(){
+function Card({info, description, icon_path}){
+
     return(
-        <div className="card">
-           
-            <h2 className='card-title'>Tommy Shelby</h2>
-            <p className='card-text'>Peaky fockin' Blinders</p>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>{description}</p>
+                        <h1>{info}</h1>
+                    </div>
+            </div>
         </div>
     );
 }

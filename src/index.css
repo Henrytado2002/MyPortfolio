@@ -37,9 +37,10 @@ h1{
     transform-origin: bottom;
 }
 
-.H{
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    
+.slide-in , .slide-out{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
+

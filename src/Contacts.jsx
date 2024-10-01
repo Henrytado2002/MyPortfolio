@@ -4,8 +4,13 @@ import "./contacts.css"
 function Contacts(){
     return(
         <>
-            <h1 className="contacts-title">My contacts</h1>
-            <Card></Card>
+            
+            <div className="card-container">
+                <Card description="My Number" info="964219944" />
+                <Card className="email-card" description="My Email" info="henrique.d.rosa2002@gmail.com" />
+                <Card description="My Discord" info="henryy._." />
+            </div>
+            
             
         </>
     )
