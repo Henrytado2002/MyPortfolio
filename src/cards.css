@@ -11,7 +11,7 @@
 	width: 400px;
 	height: 250px;
 	perspective: 900px; 
-	margin: 20px 20px;
+	margin: 20px 30px;
   }
   
   
@@ -43,6 +43,8 @@
   .flip-card-front {
 	border: 5px solid var(--highlight-text-color);
 	background-color: var(--accent-color);
+	justify-content: center;
+	align-content: center;
 	color: black;
   }
   
@@ -57,8 +59,14 @@
   .flip-card-back h1 {
 	color: black;
 	margin-bottom: 50px;
+	cursor:default
   }
+.flip-card-back p {
+	color: black;
+ 	font-size: 1.3em;
+	cursor:default
+}
 
-@media (max-width: 1400px){
-    
+.contact-icon{
+	height: 150px;
 }

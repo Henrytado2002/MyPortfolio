@@ -1,4 +1,5 @@
 import transition from "./transition";
+import "./scrollbar.css"
 function Skills(){
     return(
         <>

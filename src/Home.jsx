@@ -1,5 +1,7 @@
 import "./home.css"
+import "./scrollbar.css"
 import Transition from "./transition";
+
 
 function Home(){
     return(
