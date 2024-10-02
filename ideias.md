@@ -1,4 +1,3 @@
-
 ideias
 
 home - Nome h1 a flutuar, descrição do meu trabalho, redes sociais em icones

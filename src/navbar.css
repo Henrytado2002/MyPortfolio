@@ -1,56 +1,52 @@
+.navbar {
+  position: sticky;
+  background-color: var(--background-color);
+  width: 100vw - 10px;
+  height: 100px;
+  margin-top: -10px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: left;
+}
 
-.navbar{
-    position: sticky;
-    background-color: var(--background-color);
-    width: 100vw - 10px;
-    height: 100px;
+.button-collection {
+  background-color: var(--background-color);
+  display: flex;
+  height: 100%;
+  margin-top: -30px;
+  padding-bottom: 0;
+}
+
+.button-collection button {
+  align-self: right;
+  font-weight: bold;
+  font-size: 1.3rem;
+  height: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0;
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  transition: ease 200ms;
+}
+
+.button-collection button:hover {
+  padding-top: 60px;
+  padding-bottom: 0;
+  height: 120%;
+  color: var(--accent-color);
+  margin-bottom: 40px;
+  background-color: var(--highlight-text-color);
+  transition: ease 200ms;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    justify-content: center;
+    margin: 0;
     margin-top: -10px;
-    margin-left: 30px;
-    display: flex;
-    justify-content: left;
-}
-
-.button-collection{
-    background-color: var(--background-color);
-    display: flex;
-    height: 100%;
-    margin-top: -30px;
-    padding-bottom: 0;
-}
-
-
-.button-collection button{
-    
-    align-self: right;
-    font-weight: bold;
-    font-size: 1.3rem;
-    height: 20px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    margin-top: 30px;
-    width: 100px;
-    border-radius: 10px;
-    border: 0;
-    color: var(--main-text-color);
-    background-color:  var(--background-color);
-    transition: ease 200ms;
-}
-
-
-.button-collection button:hover{
-    padding-top: 60px;
-    padding-bottom: 0;
-    height: 120%;
-    color: var(--accent-color);
-    margin-bottom: 40px;
-    background-color: var(--highlight-text-color);
-    transition: ease 200ms;
-}
-
-@media (max-width: 900px){
-    .navbar{
-        justify-content: center;
-        margin: 0;
-        margin-top: -10PX;
-    }
+  }
 }
