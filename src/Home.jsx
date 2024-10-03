@@ -18,26 +18,21 @@ function Home() {
             </p>
           </div>
           <div className="home-logo-container">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/henrique-rosa-a55578274/"
-            >
-              <img
-                className="logo"
-                src="src\assets\linkedin.svg"
-                alt="LinkedIn"
-              />
-            </a>
-            <a target="_blank" href="https://github.com/Henrytado2002">
-              <img className="logo" src="src\assets\github.svg" alt="GitHub" />
-            </a>
-            <a target="_blank" href="https://www.instagram.com/henrytado02/">
-              <img
-                className="logo"
-                src="src\assets\instagram.svg"
-                alt="Instagram"
-              />
-            </a>
+            <abbr title="LinkedIn">
+              <a target="_blank" href="https://www.linkedin.com/in/henrique-rosa-a55578274/">
+                <img className="logo" src="src\assets\linkedin.svg" alt="LinkedIn"/>
+              </a>
+            </abbr>
+            <abbr title="GitHub">
+              <a target="_blank" href="https://github.com/Henrytado2002">
+                <img className="logo" src="src\assets\github.svg" alt="GitHub" />
+              </a>
+            </abbr>
+            <abbr title="Instagram">
+              <a target="_blank" href="https://www.instagram.com/henrytado02/">
+                <img className="logo" src="src\assets\instagram.svg" alt="Instagram"/>
+              </a>
+            </abbr>
           </div>
         </div>
       </div>

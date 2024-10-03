@@ -2,7 +2,10 @@ import Transition from "./transition";
 import Card from "./Card";
 import "./scrollbar.css";
 import "./contacts.css";
-function Contacts() {
+import { useEffect } from "react";
+
+function Contacts() {  
+  let PX = screen.width>484 ? "1.5em" : "1.1em";
   return (
     <>
       <div className="card-container">
@@ -16,7 +19,7 @@ function Contacts() {
           description="My Email"
           info="henrique.d.rosa2002@gmail.com"
           icon_path="src\assets\email.svg"
-          font_size="1.5em"
+          font_size={PX}
         />
         <Card
           description="My Discord"

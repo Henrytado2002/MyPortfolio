@@ -73,6 +73,14 @@
   .flip-card {
     background-color: transparent;
     width: 400px;
-    height: 200px;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 484px) {
+  .flip-card {
+    background-color: transparent;
+    width: 70vw;
+    height: 20vh;
   }
 }

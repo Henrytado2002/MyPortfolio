@@ -1,3 +1,4 @@
+import { ellipse } from "framer-motion/client";
 import "./cards.css";
 
 function Card({ info, description, icon_path, font_size }) {
@@ -13,7 +14,7 @@ function Card({ info, description, icon_path, font_size }) {
         </div>
         <div class="flip-card-back">
           <p>{description}</p>
-          <h1 style={{ fontSize: font_size }}>{info}</h1>
+          <h1 style={{ fontSize: font_size}}>{info}</h1>
         </div>
       </div>
     </div>
