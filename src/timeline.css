@@ -1,0 +1,63 @@
+:root {
+    --background-color: black;
+    --highlight-text-color: #b5cfb7;
+    --main-text-color: #b5cfb7;
+    --accent-color: #000000;
+}
+
+.events {
+    position: relative;
+    margin: 0.5em;
+}
+
+.event {
+    display: flex;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.events::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: var(--highlight-text-color);
+}
+
+.marker { fill: var(--highlight-text-color); }
+
+.content time {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.event .marker {
+    position: relative;
+    left: -6px;
+    top: 0px;
+  }
+.event {
+    align-items: baseline;
+}
+
+.content p{
+    margin-top: -10px;
+    font-size: 1.2rem;
+}
+
+.content a{
+    color: var(--highlight-text-color);
+    text-decoration: none;
+}
+
+.content a:hover{
+    color: var(--accent-color);
+}
+
+
+
+  

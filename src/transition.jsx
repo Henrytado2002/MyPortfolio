@@ -14,7 +14,7 @@ const transition = (Cmp) => {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       >
         {" "}
-        <img src="src\assets\H.png" className="H" />{" "}
+        <img src="./H.png" className="H" />{" "}
       </motion.div>
 
       <motion.div

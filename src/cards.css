@@ -12,6 +12,15 @@
   perspective: 900px;
   padding: 0;
   margin: 20px 30px;
+  min-height: 150px;
+}
+
+.copy-contacts-img{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  height: 15%;
+  cursor: pointer;
 }
 
 .flip-card-inner {
@@ -23,12 +32,11 @@
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   border-radius: 20px;

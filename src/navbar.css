@@ -1,20 +1,26 @@
 .navbar {
-  position: sticky;
+  position: absolute;
   background-color: var(--background-color);
-  width: 100vw - 10px;
+  width: 98vw ;
+  top: 0;
   height: 100px;
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-top: -10px;
+  margin-top: 0;
+  z-index: 3;
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 .button-collection {
+  position: sticky;
   background-color: var(--background-color);
   display: flex;
-  height: 100%;
+  height: 100px;
   margin-top: -30px;
   padding-bottom: 0;
+  position: fixed;
+  z-index: 3;
 }
 
 .button-collection button {
