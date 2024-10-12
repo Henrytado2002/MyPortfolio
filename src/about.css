@@ -20,6 +20,17 @@
     color: var(--highlight-text-color);
 }
 
+.text-container a{
+    color: var(--highlight-text-color);
+    text-decoration: none;
+}
+
+.text-container a:hover{
+    color: var(--accent-color);
+}
+
+
+
 .text-container .header-container{
     margin-top: 30px;
     margin-bottom: -10px;
@@ -52,8 +63,9 @@ p{
     width: 40px;
     margin-top: 15px;
     margin-right: 10px;
-}
+}                                                                                                                                                                                                                                                                                                                                     
 
+ /* MOBILE */
 @media (max-width: 484px) {
     .text-container{
         display: flex;

@@ -5,6 +5,10 @@
     --accent-color: #000000;
 }
 
+.content{
+    margin-left: 10px;
+}
+
 .events {
     position: relative;
     margin: 0.5em;
@@ -15,7 +19,7 @@
 }
 
 .text{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .events::before {
@@ -39,6 +43,7 @@
     position: relative;
     left: -6px;
     top: 0px;
+    z-index: 3;
   }
 .event {
     align-items: baseline;
