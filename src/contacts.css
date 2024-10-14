@@ -4,15 +4,14 @@
   --main-text-color: #b5cfb7;
   --accent-color: #708972;
   max-height: 100vh;
+  overflow-y: scroll;
 }
 
 .contacts-title{
-  position: absolute;
+  position:relative;
   width: 100vw;
-  margin-bottom:50vh;
   text-align: center;
   color: var(--main-text-color);
-  overflow:visible
 }
 
 .card-container {
@@ -60,9 +59,7 @@
 @media (max-height: 800px) and (max-width: 1450px) {
   .contacts-title{
     position: absolute;
-    
-    margin-bottom:620px;
-    
+    top: -6vh;  
   }
 
   .card-container {
@@ -80,12 +77,16 @@
   
   .card-container {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
+    min-height: 0;
     padding: 0;
-    margin-top: 10vh;
+    margin: 0;
+    top: 3vh;
+    margin-top: 100px;
   } 
 }

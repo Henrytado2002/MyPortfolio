@@ -98,7 +98,7 @@ abbr {
 }
 
 
-abbr::after{
+.abbr::after{
   opacity:0;
   transition: ease-in 500ms;
   transition-delay: 700ms;
@@ -114,7 +114,7 @@ abbr::after{
   border-radius: 10px;
 }
   
-abbr:hover::after {
+.abbr:hover::after {
   opacity:1;
 }
 
@@ -205,11 +205,12 @@ abbr:hover::after {
       margin-left: 10px; 
       font-size: 20vw;
       max-width: 100vw;
+      color: var(--highlight-text-color);
     }
     .henrique2 {
       margin-left: 10px; 
       font-size: 20vw;
-      color: black;
+      color: var(--highlight-text-color);
       max-width: 100vw;
     }
     .home-info-container {
@@ -220,11 +221,9 @@ abbr:hover::after {
       font-size: 10vw;
       margin-top: 20vh;
     }
-    .home-logo-container{
-      margin-top: 10vh;
-    }
     .home-container{
       overflow: hidden;
+      height: 70vh;
     }
     
   }

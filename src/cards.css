@@ -90,5 +90,11 @@
     background-color: transparent;
     width: 70vw;
     height: 20vh;
+    min-height: 90px;
+    margin-top: 1vh;
+  }
+  .contact-icon {
+    height: 20vh;
+    min-height: 90px;
   }
 }

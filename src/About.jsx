@@ -15,24 +15,24 @@ function About() {
               className="main-about-title"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}>ABOUT ME</motion.h1>
+              viewport={{once:false, amount:.2}}>ABOUT ME</motion.h1>
 
           <div className="header-container">
             <motion.img src="./profile.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Who I am: </motion.h1>
+              viewport={{once:false, amount:.2}}> Who I am: </motion.h1>
           </div>
         
           <motion.p
           initial={{opacity:0, y: 50}} 
           whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-          viewport={{once:false, amount:.5}}>
+          viewport={{once:false, amount:.2}}>
             Hi! My name is Henrique, and I am a Portuguese Web Developer and Computer Sciences Engineer. 
             I live in Aveiro, but I was born and raised in the arid lands of Alentejo. I am currently 
             still developing my knowledge, undertaking a masters degree in the University of Aveiro. 
@@ -45,12 +45,12 @@ function About() {
             <motion.img src="./book.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Academic background: </motion.h1>
+              viewport={{once:false, amount:.2}}> Academic background: </motion.h1>
           </div>
           <Timeline/>
 
@@ -58,12 +58,12 @@ function About() {
             <motion.img src="./keyboard.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Professional experience </motion.h1>
+              viewport={{once:false, amount:.2}}> Professional experience </motion.h1>
           </div>
         
           <Timeline2></Timeline2>
@@ -72,18 +72,18 @@ function About() {
             <motion.img src="./convo.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Comunication Skills </motion.h1>
+              viewport={{once:false, amount:.2}}> Comunication Skills </motion.h1>
           </div>
 
           <motion.p
           initial={{opacity:0, y: 50}} 
           whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-          viewport={{once:false, amount:.5}}>
+          viewport={{once:false, amount:.2}}>
             I've always been an expressive person, capable of easily conveying ideas to others, as well as a good, impartial
             and analytical listener. Whether I'm explaining complex concepts, 
             offering feedback, or collaborating on projects, I have a natural ability to engage people and make my 
@@ -106,18 +106,18 @@ function About() {
             <motion.img src="./people.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Networks </motion.h1>
+              viewport={{once:false, amount:.2}}> Networks </motion.h1>
           </div>
 
           <motion.p
           initial={{opacity:0, y: 50}} 
           whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-          viewport={{once:false, amount:.5}}>
+          viewport={{once:false, amount:.2}}>
           <ul>
             <li>Academical asdsociation of the University of Évora | Vice-Coordinator of the IT sector </li>
             <li>Computer Engineering Sudents Conglomerate | Vice-Coordinator of the IT department</li>
@@ -128,18 +128,18 @@ function About() {
             <motion.img src="./organization.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Organizational Skills </motion.h1>
+              viewport={{once:false, amount:.2}}> Organizational Skills </motion.h1>
           </div>
 
           <motion.p
           initial={{opacity:0, y: 50}} 
           whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-          viewport={{once:false, amount:.5}}>
+          viewport={{once:false, amount:.2}}>
           Practice in effective and organized time management, paired with robust data management practices and 
           secure data protocols, ensuring a structured and reliable workflow, maintaining at all times a clear 
           vision for setting and tracking goals, along with a well-defined path to achieve them. 
@@ -151,18 +151,18 @@ function About() {
             <motion.img src="./bulb.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" />
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.5}}> Personal Interests </motion.h1>
+              viewport={{once:false, amount:.2}}> Personal Interests </motion.h1>
           </div>
 
-          <motion.p
+          <motion.p className="last-asset"
           initial={{opacity:0, y: 50}} 
           whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-          viewport={{once:false, amount:.5}}>
+          viewport={{once:false,}}>
             I consider myself a multifaceted person, with lots of interests, like the following:
           <ul>
             <li>Programming</li>

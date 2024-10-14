@@ -5,7 +5,7 @@ import "./contacts.css";
 import { useEffect } from "react";
 
 function Contacts() {  
-  let PX = screen.width>484 ? "1.5em" : "1.1em";
+  let PX = screen.width>484 ? "1.5em" : "1.0em";
   let H1 = screen.width>484 ? "Hover above the cards" : "Touch the cards";
   return (
     <>
