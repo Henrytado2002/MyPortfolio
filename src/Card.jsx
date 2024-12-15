@@ -27,12 +27,12 @@ function Card({ info, description, icon_path, font_size, num }) {
   }     
 
   return (
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
+    <div className="flip-card">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
           <img className="contact-icon" src={icon_path} alt="" />
         </div>
-        <div class="flip-card-back" >
+        <div className="flip-card-back" >
           <p>{description}</p>
           <h1 style={{ fontSize: font_size}}>{info}</h1>
           <img className="copy-contacts-img" src={SRC} onClick={ImgclipboardHandler}></img>

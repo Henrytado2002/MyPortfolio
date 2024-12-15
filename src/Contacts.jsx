@@ -11,6 +11,7 @@ function Contacts() {
     <>
       <div className="card-container">
         <h1 className="contacts-title">{H1}</h1>
+        <div className="card"></div>
         <Card
           description="My Number"
           info="964219944"
