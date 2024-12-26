@@ -1,5 +1,5 @@
 import Transition from "../Main/transition";
-import Timeline from "../Timeline/timeline";
+import Timeline from "../Timeline/Timeline";
 import Timeline2 from "../Timeline/Timeline2";
 import "../Main/scrollbar.css";
 import "./about.css"
