@@ -1,5 +1,5 @@
-import transition from "./transition";
-import "./scrollbar.css";
+import transition from "../Main/transition";
+import "../Main/scrollbar.css";
 import "./Skills.css";
 function Skills() {
   return (

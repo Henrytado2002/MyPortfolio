@@ -4,11 +4,11 @@ import {
   Routes,
   useNavigate,
 } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Skills from "./Skills";
-import Contacts from "./Contacts";
-import NavBar from "./NavBar";
+import Home from "../Home/Home";
+import About from "../About/About";
+import Skills from "../Skills/Skills";
+import Contacts from "../Contacts/Contacts";
+import NavBar from "../Navbar/NavBar";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import "./home.css";
-import "./scrollbar.css";
-import Transition from "./transition";
+import "../Main/scrollbar.css";
+import Transition from "../Main/transition";
 
 function Home() {
   return (

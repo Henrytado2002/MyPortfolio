@@ -1,0 +1,102 @@
+:root {
+  --background-color: black;
+  --highlight-text-color: #b5cfb7;
+  --main-text-color: #b5cfb7;
+  --accent-color: #485f4a;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+html{
+  height: 100vh;
+}
+
+.contacts-title{
+  font-size: 3em;
+  position:relative;
+  width: 100vw;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.contacts-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact{
+  display: flex;
+  width: 700px;
+  max-height: 100px;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 3px solid var(--highlight-text-color);
+  transition: ease 400ms;
+}
+
+.contact h1{
+  font-size: 1.8em;
+  color: var(--highlight-text-color);
+}
+
+.contact p{
+  margin-bottom: -20px;
+  color: var(--highlight-text-color);
+}
+
+.contact-img{
+  color: var(--highlight-text-color);
+  font-size: 8em;
+  
+}
+
+.contact-image-container{
+  flex: 1;
+  margin: 0 30px;
+  text-align: right;
+  position: relative;
+  bottom: -5px;
+  
+}
+
+#phone-image-container{
+  text-align: left;
+}
+
+#discord-image{
+  margin-top: -23px;
+  font-size: 10em;
+}
+
+#email-image{
+  margin-top: -15px;
+  font-size: 10em;
+}
+
+#email, #discord{
+  text-align: left;
+  justify-content: left;
+}
+
+#phone{
+  text-align: right;
+  justify-content: right;
+}
+
+.contact:hover{
+  background-color: var(--main-text-color);
+  color: var(--accent-color);
+  cursor: pointer;
+  transition: ease 400ms;
+}
+
+.contact:hover h1, .contact:hover p, .contact:hover .contact-img{
+  color: var(--accent-color);
+}

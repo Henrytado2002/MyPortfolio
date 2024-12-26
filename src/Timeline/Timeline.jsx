@@ -14,7 +14,7 @@ function timeline(){
                     <div className="content">
                         <time>2018 - 2020</time>
                         <div className="text">
-                            <h2>High School Course of Science and Technology</h2>
+                            <h2 className="timeline-h2">High School Course of Science and Technology</h2>
                             <p>Évora | <a href="https://aeseverim.pt/" target="_blank">Severim de Faria's High School</a> </p>
                         </div>
                     </div>   
@@ -29,7 +29,7 @@ function timeline(){
                     <div className="content">
                         <time>2021 – 2024</time>
                         <div className="text">
-                            <h2>Bachelors Degree in Computer Science Engineering</h2>
+                            <h2 className="timeline-h2">Bachelors Degree in Computer Science Engineering</h2>
                             <p>Évora | <a href="https://www.uevora.pt/en" target="_blank">University of Évora </a> | <a href="./diploma_UE_EI.pdf" target="_blank">Certificate of Completion</a> </p>
                         </div>
                     </div>   
@@ -43,7 +43,7 @@ function timeline(){
                     <div className="content">
                         <time>CURRENTLY</time>
                         <div className="text">
-                            <h2>Masters Degree in Comunication and Web Development</h2>
+                            <h2 className="timeline-h2">Masters Degree in Comunication and Web Development</h2>
                             <p>Aveiro | <a href="https://www.ua.pt/" target="_blank">University of Aveiro</a> | <a href="./Matricula_UA.pdf" target="_blank">Entry Certificate </a> </p>
                         </div>
                     </div>   
