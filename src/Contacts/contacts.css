@@ -38,7 +38,7 @@ html{
   padding: 10px 20px;
   border-radius: 20px;
   border: 3px solid var(--highlight-text-color);
-  transition: ease 400ms;
+  transition: ease 250ms;
 }
 
 .contact h1{
@@ -94,7 +94,7 @@ html{
   background-color: var(--main-text-color);
   color: var(--accent-color);
   cursor: pointer;
-  transition: ease 400ms;
+  transition: ease 250ms;
 }
 
 .contact:hover h1, .contact:hover p, .contact:hover .contact-img{
