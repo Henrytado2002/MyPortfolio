@@ -17,6 +17,7 @@ html{
   width: 100vw;
   text-align: center;
   color: var(--main-text-color);
+  margin-bottom: -5px;
 }
 
 .contacts-container{
@@ -98,11 +99,42 @@ html{
 }
 
 .contact:hover h1, .contact:hover p, .contact:hover .contact-img{
-  color: var(--accent-color);
+  color: black;
   transition: ease 250ms;
 }
 
 .contact:hover .contact-img{
   color: black;
   transition: ease 250ms;
+}
+
+.tooltip{
+  transition: ease 200ms;
+  position: absolute;
+  transform: translate(-50%, -120%);
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0; /* Start with full transparency */
+  animation: fadeIn 1.3s ease-out forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
