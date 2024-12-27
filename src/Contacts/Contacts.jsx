@@ -13,7 +13,9 @@ function Contacts() {
   const [tooltip, setTooltip] = useState({ visible: false, x: 0, y: 0 });
 
   function clickHandler(text, event) {
-    navigator.clipboard.writeText(text).then(() => {
+
+    navigator.clipboard.writeText(text)
+	
       // Show tooltip near the cursor
       setTooltip({
         visible: true,
@@ -25,13 +27,14 @@ function Contacts() {
       setTimeout(() => {
         setTooltip({ visible: false, x: 0, y: 0 });
       }, 1500);
-    });
+    
   }
 
   return (
     <>
       <div className="contacts-container">
-        <h1 className="contacts-title">Contacts:</h1>
+        <h1 className="contacts-title">Contacts</h1>
+		
 
         <div
           onClick={(event) => clickHandler("henrique.d.rosa2002@gmail.com", event)}
@@ -40,7 +43,7 @@ function Contacts() {
         >
           <div className="contact-text">
             <p>My email:</p>
-            <h1>henrique.d.rosa2002@gmail.com</h1>
+            <h1 id="email-h1">henrique.d.rosa2002@gmail.com</h1>
           </div>
           <div className="contact-image-container" id="email-image-container">
             <MdAlternateEmail className="contact-img" id="email-image" />

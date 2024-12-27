@@ -11,6 +11,7 @@ html{
   height: 100vh;
 }
 
+
 .contacts-title{
   font-size: 3em;
   position:relative;
@@ -85,27 +86,30 @@ html{
   justify-content: left;
 }
 
-#phone{
-  text-align: right;
-  justify-content: right;
-}
 
-.contact:hover{
-  background-color: var(--main-text-color);
-  color: var(--accent-color);
-  cursor: pointer;
-  transition: ease 250ms;
-  border: 4px solid black;
-}
 
-.contact:hover h1, .contact:hover p, .contact:hover .contact-img{
-  color: black;
-  transition: ease 250ms;
-}
-
-.contact:hover .contact-img{
-  color: black;
-  transition: ease 250ms;
+@media (min-width: 415px){
+  #phone{
+    text-align: right;
+    justify-content: right;
+  }
+  .contact:hover{
+    background-color: var(--main-text-color);
+    color: var(--accent-color);
+    cursor: pointer;
+    transition: ease 250ms;
+    border: 4px solid black;
+  }
+  
+  .contact:hover h1, .contact:hover p, .contact:hover .contact-img{
+    color: black;
+    transition: ease 250ms;
+  }
+  
+  .contact:hover .contact-img{
+    color: black;
+    transition: ease 250ms;
+  }
 }
 
 .tooltip{
@@ -137,4 +141,85 @@ html{
   100%{
     opacity: 0;
   }
+}
+
+@media (max-width: 415px){
+  .contact{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    transition: ease 250ms;
+    border-bottom: 1px solid var(--highlight-text-color);
+    padding-bottom: 20px;
+  }
+  
+
+  .contact-text{
+    width: 60vw;
+  }
+
+  .contact p{
+    position: relative;
+    text-align: left;
+    margin-bottom: -10px;
+    z-index: 2;
+    font-size: 3.8vw;
+  }
+  
+  .contact h1{
+    text-align: left;
+    position: relative;
+    font-size: 4.1vw;
+    z-index: 2;
+  }
+  
+  .contact-img{
+    color: var(--highlight-text-color);
+    z-index: 1;
+    margin: 0;
+  }
+
+  .contact-image-container{
+    order: -1;
+    font-size: 1.1vw;
+    position: relative;
+    z-index: 1;
+    flex: 0 ;
+    width: fit-content;
+    margin: 0;
+    margin-right: 10px;
+    bottom: 0px;
+    align-content: center;
+  }
+
+  .contacts-title{
+    font-size: 18vw;
+    position:relative;
+    
+    text-align: center;
+    color: var(--main-text-color);
+    margin-bottom: 50px;
+    margin-top: -60px;
+  }
+
+  
+
+  #discord-image, #email-image, #phone-image{
+    margin: 0 0;
+    margin-bottom: -10px;
+  }
+  
+  #email-image{
+    margin-top: -15px;
+    font-size: 10em;
+  }
+}
+
+@media (max-width: 780px){
+  
 }
