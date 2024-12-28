@@ -80,7 +80,7 @@ html{
 
 
 
-@media (min-width: 415px){
+@media (min-width: 484px){
   #phone{
     text-align: right;
     justify-content: right;
@@ -109,8 +109,8 @@ html{
   position: absolute;
   transform: translate(-50%, -120%);
   padding: 8px 12px;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--link-color);
+  color: var(--background-color);
   border-radius: 5px;
   font-size: 1.2em;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -135,11 +135,12 @@ html{
   }
 }
 
-@media (max-width: 415px){
+@media (max-width: 480px){
   .contact{
     display: flex;
     flex-direction: row;
     width: 80vw;
+    height: 10vh;
     overflow: hidden;
     margin-top: 20px;
     padding: 0;
@@ -183,6 +184,7 @@ html{
     z-index: 1;
     flex: 0 ;
     width: fit-content;
+    
     margin: 0;
     margin-right: 10px;
     bottom: 0px;
@@ -196,7 +198,7 @@ html{
     text-align: center;
     color: var(--main-text-color);
     margin-bottom: 50px;
-    margin-top: -60px;
+    
   }
 
   #discord-image, #email-image, #phone-image{

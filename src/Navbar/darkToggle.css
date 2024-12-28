@@ -24,8 +24,8 @@
   
   .toggle-wrapper {
     width: 80px;
-    display: block;
     z-index: 20;
+    display: block;
   }
   
   .toggle {
@@ -85,4 +85,15 @@
     z-index: 20;
   }
   
-  
+@media (max-width: 484px) {
+    .toggle-container{
+        margin-left: 9vw;
+        width: 100vw;
+        justify-items: center;
+        min-width: 0px;
+        max-width: 1000px;
+        z-index: 0;
+        position: relative;
+        top: 100px;
+      }
+}

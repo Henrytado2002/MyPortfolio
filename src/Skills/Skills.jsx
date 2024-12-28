@@ -7,7 +7,7 @@ import DarkToggle from "../Navbar/DarkToggle";
 function Skills() {
   return (
     <div className="skills-container">
-      <h1 className="skills-title">🚧 Under construction... 🚧 </h1>
+      <h1 className="skills-title">🚧 Under construction... 🚧 <br />  </h1>
     </div>
   );
 }

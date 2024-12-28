@@ -4,3 +4,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.skills-title{
+    font-size: 3em;
+    color: var(--main-text-color);
+}
+
+@media(max-width: 484px){
+    .skills-title{
+        font-size: 7vw;
+        color: var(--main-text-color);
+    }
+}
