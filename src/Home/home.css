@@ -197,14 +197,14 @@ abbr {
   /* MOBILE */
   @media (max-width: 484px) {
     .henrique {
-      margin-left: 10px; 
-      font-size: 18vw;
+      margin-left: 7vw; 
+      font-size: 17.5vw;
       max-width: 100vw;
-      color: var(--highlight-text-color);
+      color: transparent;
     }
     .henrique2 {
-      margin-left: 10px; 
-      font-size: 18vw;
+      margin-left: 7vw; 
+      font-size: 17.5vw;
       color: var(--highlight-text-color);
       max-width: 100vw;
     }
