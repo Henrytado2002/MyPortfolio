@@ -1,4 +1,6 @@
 import "./timeline.css";
+import "../Main/index.css";
+import { FaCircle } from "react-icons/fa";
 import { motion} from "framer-motion";
 
 function timeline(){
@@ -10,7 +12,7 @@ function timeline(){
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
               viewport={{once:false, amount:.5}}
                 className="event">
-                    <svg className="marker" xmlns="http://www.w3.org/2000/svg" width="15" height="12"> <circle cx="6" cy="6" r="6"></circle> </svg>
+                    <FaCircle className="marker"></FaCircle>
                     <div className="content">
                         <time>2018 - 2020</time>
                         <div className="text">
@@ -25,7 +27,7 @@ function timeline(){
                 whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
                 viewport={{once:false, amount:.5}} 
                 className="event">
-                    <svg className="marker" xmlns="http://www.w3.org/2000/svg" width="15" height="12"> <circle cx="6" cy="6" r="6"></circle> </svg>
+                    <FaCircle className="marker"></FaCircle>
                     <div className="content">
                         <time>2021 – 2024</time>
                         <div className="text">
@@ -39,7 +41,7 @@ function timeline(){
                 whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
                 viewport={{once:false, amount:.5}} 
                 className="event">
-                    <svg className="marker" xmlns="http://www.w3.org/2000/svg" width="15" height="12"> <circle cx="6" cy="6" r="6"></circle> </svg>
+                    <FaCircle className="marker"></FaCircle>
                     <div className="content">
                         <time>CURRENTLY</time>
                         <div className="text">

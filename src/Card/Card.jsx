@@ -1,6 +1,6 @@
 import { ellipse } from "framer-motion/client";
 import "./cards.css";
-
+import "../Main/index.css";
 import { useEffect, useState } from "react";
 
 

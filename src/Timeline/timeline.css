@@ -1,9 +1,4 @@
-:root {
-    --background-color: black;
-    --highlight-text-color: #b5cfb7;
-    --main-text-color: #b5cfb7;
-    --accent-color: #000000;
-}
+
 
 .content{
     margin-left: 10px;
@@ -31,7 +26,9 @@
     background: var(--highlight-text-color);
 }
 
-.marker { fill: var(--highlight-text-color); }
+.marker { 
+    z-index: 3;
+}
 
 .content time {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -44,6 +41,9 @@
     left: -6px;
     top: 0px;
     z-index: 3;
+    fill: var(--highlight-text-color); 
+    min-width: 13px;
+    max-width: 13px;
   }
 .event {
     align-items: baseline;

@@ -1,8 +1,18 @@
 import Transition from "../Main/transition";
 import Timeline from "../Timeline/Timeline";
 import Timeline2 from "../Timeline/Timeline2";
+
+import { IoPersonOutline } from "react-icons/io5";
+import { HiAcademicCap } from "react-icons/hi";
+import { FaComputer } from "react-icons/fa6";
+import { FaComments } from "react-icons/fa";
+import { HiMiniUserGroup } from "react-icons/hi2";
+import { MdDateRange } from "react-icons/md";
+import { IoBulb } from "react-icons/io5";
+
 import "../Main/scrollbar.css";
 import "./about.css"
+import "../Main/index.css";
 import { motion} from "framer-motion";
 
 function About() {
@@ -18,10 +28,12 @@ function About() {
               viewport={{once:false, amount:.2}}>ABOUT ME</motion.h1>
 
           <div className="header-container">
-            <motion.img src="./profile.svg"
+            <motion.div
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" >
+                <IoPersonOutline className="about-img"/>
+            </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
@@ -42,23 +54,28 @@ function About() {
           </motion.p>
 
           <div className="header-container">
-            <motion.img src="./book.svg"
+            <motion.div src="./book.svg"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" >
+                <HiAcademicCap className="about-img"/>
+              </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
               viewport={{once:false, amount:.2}}> Academic background: </motion.h1>
           </div>
+
           <Timeline/>
 
           <div className="header-container">
-            <motion.img src="./keyboard.svg"
+            <motion.div 
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" >
+                <FaComputer  className="about-img" />
+              </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
@@ -66,13 +83,15 @@ function About() {
               viewport={{once:false, amount:.2}}> Professional experience </motion.h1>
           </div>
         
-          <Timeline2></Timeline2>
-        
+          <Timeline2/>
+
           <div className="header-container">
-            <motion.img src="./convo.svg"
+            <motion.div 
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" >
+                <FaComments className="about-img"/>
+              </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
@@ -103,10 +122,12 @@ function About() {
           </motion.p>
 
           <div className="header-container">
-            <motion.img src="./people.svg"
+            <motion.div
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" >
+                <HiMiniUserGroup className="about-img"/>
+              </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
@@ -125,10 +146,12 @@ function About() {
           </motion.p>
 
           <div className="header-container">
-            <motion.img src="./organization.svg"
+            <motion.div
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img">
+                <MdDateRange className="about-img" />
+              </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 
@@ -148,10 +171,12 @@ function About() {
           </motion.p>
 
           <div className="header-container">
-            <motion.img src="./bulb.svg"
+            <motion.div
               initial={{opacity:0, y: 50}} 
               whileInView={{opacity:1, y:0 ,transition:{delay:0.2, duration:0.3}}} 
-              viewport={{once:false, amount:.2}} className="about-img" />
+              viewport={{once:false, amount:.2}} className="about-img" >
+                <IoBulb className="about-img"/>
+              </motion.div>
             <motion.h1 
               className="about-h1"
               initial={{opacity:0, y: 50}} 

@@ -1,10 +1,3 @@
-:root {
-  --background-color: black;
-  --highlight-text-color: #b5cfb7;
-  --main-text-color: #b5cfb7;
-  --accent-color: #000000;
-}
-
 .home-container {
   padding-top: 5vh;
   max-width: 100vw;
@@ -26,7 +19,7 @@
   animation: animate 4s ease-in-out infinite;
   -webkit-text-stroke: 2px #b5cfb7;
   animation-fill-mode: both;
-  color: #b5cfb7;
+  color: var(--main-text-color);
   transition: ease 100ms;
   overflow-y: clip;
 }
@@ -37,7 +30,7 @@
   position: absolute;
   font-size: 6rem;
   margin-bottom: 450px;
-  -webkit-text-stroke: 2px #b5cfb7;
+  -webkit-text-stroke: 2px var(--main-text-color);
   animation-fill-mode: both;
   color: transparent;
   transition: ease 100ms;
@@ -88,6 +81,8 @@
 }
 
 .logo {
+  color: var(--main-text-color);
+  font-size: 3em;
   height: 50px;
   margin: 0 10px;
   cursor: pointer;

@@ -1,0 +1,30 @@
+
+.slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: var(--main-text-color);
+    transform-origin: bottom;
+  }
+  
+  .slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: var(--main-text-color);
+    transform-origin: bottom;
+  }
+  
+  .slide-in,
+  .slide-out {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 6;
+  }
+  

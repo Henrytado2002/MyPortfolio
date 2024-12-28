@@ -3,6 +3,7 @@ import Transition from "../Main/transition";
 
 import "../Main/scrollbar.css";
 import "./contacts.css";
+import "../Main/index.css";
 
 // ICONS
 import { FaPhoneAlt } from "react-icons/fa";

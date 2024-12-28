@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import "./transition.css"
 import "./index.css";
 
 const transition = (Cmp) => {

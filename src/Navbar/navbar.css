@@ -1,7 +1,6 @@
-
-
 .navbar {
   position: absolute;
+  min-width: 600px;
   background-color: var(--background-color);
   width: 90vw ;
   top: 0;
@@ -13,7 +12,8 @@
   margin-top: 0;
   z-index: 4;
   right: 5vw;
-  box-shadow: 5px 5px 5px 5px black;
+  box-shadow: 5px 5px 5px 5px var(--background-color);
+  transition: 200ms ease;
 }
 
 .button-collection {
@@ -25,9 +25,11 @@
   padding-bottom: 0;
   position: fixed;
   z-index: 3;
+  transition: 200ms ease;
+  
 }
 
-.button-collection button {
+.nav-button {
   align-self: right;
   font-weight: bold;
   font-size: 1.3rem;
@@ -40,7 +42,7 @@
   border: 0;
   color: var(--main-text-color);
   background-color: var(--background-color);
-  transition: ease 200ms;
+  transition: 200ms ease;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
@@ -50,7 +52,7 @@
 }
 
 @media (hover: hover) {
-  .button-collection button:hover{
+  .nav-button:hover{
   padding-top: 60px;
   padding-bottom: 0;
   height: 120%;
@@ -71,7 +73,7 @@
   .button-collection{
     height: 20px;
   }
-  .button-collection button {
+  .nav-button {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -84,7 +86,7 @@
     margin-top: 60px; 
     -webkit-tap-highlight-color: transparent;
   }
-  .button-collection button:active {
+  .nav-button:active {
     color: var(--accent-color);
     background-color: var(--highlight-text-color);
   }

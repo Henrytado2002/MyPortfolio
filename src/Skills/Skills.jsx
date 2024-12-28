@@ -1,6 +1,9 @@
 import transition from "../Main/transition";
 import "../Main/scrollbar.css";
 import "./Skills.css";
+import "../Main/index.css";
+import DarkToggle from "../Navbar/DarkToggle";
+
 function Skills() {
   return (
     <div className="skills-container">

@@ -1,6 +1,12 @@
 import "./home.css";
 import "../Main/scrollbar.css";
+import "../Main/index.css";
+
 import Transition from "../Main/transition";
+
+import { FaLinkedin } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
 
 function Home() {
   return (
@@ -19,17 +25,17 @@ function Home() {
           </div>
           <div className="home-logo-container">
               <a className="abbr" target="_blank" href="https://www.linkedin.com/in/henrique-rosa-a55578274/">
-                <img className="logo" src="./linkedin.svg" alt="LinkedIn"/>
+                <FaLinkedin  className="logo" src="./linkedin.svg" alt="LinkedIn"/>
               </a>
             
             
               <a className="abbr" target="_blank" href="https://github.com/Henrytado2002">
-                <img className="logo" src="./github.svg" alt="GitHub" />
+                <IoLogoGithub className="logo" src="./github.svg" alt="GitHub" />
               </a>
             
             
               <a className="abbr" target="_blank" href="https://www.instagram.com/henrytado02/">
-                <img className="logo" src="./instagram.svg" alt="Instagram"/>
+                <FaInstagram className="logo" src="./instagram.svg" alt="Instagram"/>
               </a>
             
           </div>

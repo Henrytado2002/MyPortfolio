@@ -34,7 +34,7 @@ html{
 }
 
 .text-container a:hover{
-    color: var(--accent-color);
+    color: var(--link-color);
 }
 
 
@@ -59,6 +59,7 @@ html{
 
 .header-container{
     display: flex;
+    align-items: center;
 }
 
 p{
@@ -69,7 +70,6 @@ p{
 .about-img{
     height: 40px;
     width: 40px;
-    margin-top: 15px;
     margin-right: 10px;
 }                                                                                                                                                                                                                                                                                                                                     
 
