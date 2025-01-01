@@ -50,15 +50,17 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-@media (hover: hover) {
-  .nav-button:hover{
-  padding-top: 60px;
-  padding-bottom: 0;
-  height: 120%;
-  color: var(--accent-color);
-  margin-bottom: 40px;
-  background-color: var(--highlight-text-color);
-  transition: ease 200ms;
+@media (min-width: 484px) {
+  @media (hover: hover) {
+    .nav-button:hover{
+      padding-top: 60px;
+      padding-bottom: 0;
+      height: 120%;
+      color: var(--accent-color);
+      margin-bottom: 40px;
+      background-color: var(--highlight-text-color);
+      transition: ease 200ms;
+    }
   }
 }
 
