@@ -8,15 +8,16 @@ function NavBar() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="navbar">
-        <div className="button-collection">
-          <button className="nav-button" onClick={() => navigate("/")}>Home</button>
-          <button className="nav-button" onClick={() => navigate("/about")}>About</button>
-          <button className="nav-button" onClick={() => navigate("/skills")}>Work</button>
-          <button className="nav-button" onClick={() => navigate("/contacts")}>Contacts</button>
+      <div className="navbar-container">
+        <div className="navbar">
+          <div className="button-collection">
+            <button className="nav-button" onClick={() => navigate("/")}>Home</button>
+            <button className="nav-button" onClick={() => navigate("/about")}>About</button>
+            <button className="nav-button" onClick={() => navigate("/skills")}>Work</button>
+            <button className="nav-button" onClick={() => navigate("/contacts")}>Contacts</button>
+          </div>
+          <DarkToggle/>
         </div>
-        <DarkToggle/>
-          
       </div>
     </>
   );

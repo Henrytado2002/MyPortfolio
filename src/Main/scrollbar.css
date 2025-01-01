@@ -1,21 +1,21 @@
 ::-webkit-scrollbar {
   width: 10px;
   position: relative;
-  z-index: 5;
+  z-index: 2000;
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 5px;
-  z-index: 5;
+  z-index: 2000;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--highlight-text-color);
   border-radius: 10px;
-  z-index: 5;
+  z-index: 2000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-color);
-  z-index: 5;
+  z-index: 2000;
 }
