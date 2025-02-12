@@ -1,6 +1,6 @@
 import transition from "../Main/transition";
 import "../Main/scrollbar.css";
-import "./Skills.css";
+import "./Work.css";
 import "../Main/index.css";
 import DarkToggle from "../Navbar/DarkToggle";
 

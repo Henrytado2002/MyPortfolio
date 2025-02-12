@@ -194,7 +194,7 @@ html{
   .contacts-title{
     font-size: 18vw;
     position:relative;
-    
+    margin-top: 0px;
     text-align: center;
     color: var(--main-text-color);
     margin-bottom: 50px;
@@ -212,6 +212,8 @@ html{
   }
 }
 
-@media (max-width: 780px){
-  
+@media (max-width: 850px) {
+  .contacts-title{
+    margin-top: 80px;
+  }
 }

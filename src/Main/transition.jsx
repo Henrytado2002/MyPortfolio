@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import "./transition.css"
 import "./index.css";
+import { useSelector } from "react-redux";
 
 const transition = (Cmp) => {
+
+  
+  
   return () => (
     <>
       <Cmp />
@@ -15,7 +19,7 @@ const transition = (Cmp) => {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       >
         {" "}
-        <img src="./H.png" className="H" />{" "}
+        <img src={useSelector((state) => state.image.imageSrc)} className="H" />{" "}
       </motion.div>
 
       <motion.div
@@ -26,7 +30,7 @@ const transition = (Cmp) => {
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
       >
         {" "}
-        <img src="src\assets\H.png" className="H" />
+        <img src={useSelector((state) => state.image.imageSrc)} className="H" />
       </motion.div>
     </>
   );

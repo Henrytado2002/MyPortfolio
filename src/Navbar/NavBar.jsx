@@ -13,7 +13,7 @@ function NavBar() {
           <div className="button-collection">
             <button className="nav-button" onClick={() => navigate("/")}>Home</button>
             <button className="nav-button" onClick={() => navigate("/about")}>About</button>
-            <button className="nav-button" onClick={() => navigate("/skills")}>Work</button>
+            <button className="nav-button" onClick={() => navigate("/work")}>Work</button>
             <button className="nav-button" onClick={() => navigate("/contacts")}>Contacts</button>
           </div>
           <DarkToggle/>

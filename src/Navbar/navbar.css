@@ -56,7 +56,7 @@
       padding-top: 60px;
       padding-bottom: 0;
       height: 120%;
-      color: var(--accent-color);
+      color: var(--background-color);
       margin-bottom: 40px;
       background-color: var(--highlight-text-color);
       transition: ease 200ms;
@@ -114,3 +114,8 @@
   }
 }
 
+@media (max-width: 850px) {
+  .navbar{
+    height: 160px;
+  }
+}
