@@ -49,7 +49,7 @@ export default function DarkToggle() {
                 name="toggle"
                 type="checkbox"
                 checked={isEnabled}
-                onClick={toggleState}
+                onChange={toggleState}
                 />
             </div>
             </label>
