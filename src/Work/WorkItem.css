@@ -1,0 +1,47 @@
+.work-item-container {
+    transition: ease 200ms;
+}
+
+.work-item-header {
+    margin-top: 10px;
+    height: 80px;
+    width: 80vw;
+    background-color: var(--accent-color);
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    transition: ease 200ms;
+    border-radius: 7px;
+}
+
+.work-item-body {
+    margin-top: -5px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.work-item-body.open {
+    height: 200px; /* Adjust this height as needed */
+}
+
+/* Alternating background colors */
+.work-item-container:nth-child(odd) .work-item-header, .work-item-container:nth-child(odd) .work-item-body {
+    background-color: var(--link-color);
+    
+}
+
+.work-item-container:nth-child(odd) h2 {
+    color: var(--background-color);
+}
+
+.work-item-container:nth-child(even) .work-item-header, .work-item-container:nth-child(even) .work-item-body {
+    background-color: var(--highlight-text-color);
+}
+
+.work-item-container:nth-child(even) h2 {
+    color: var(--background-color);
+}

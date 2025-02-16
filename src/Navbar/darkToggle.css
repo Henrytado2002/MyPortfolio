@@ -5,7 +5,9 @@
   
   .toggle-container{
     width: 100vw;
+    height: fit-content;
     justify-items: right;
+    margin-right: 5vw;
     min-width: 560px;
     z-index: 0;
     position: relative;
@@ -89,19 +91,14 @@
   
 @media (max-width: 850px) {
     .toggle-container{
-        margin-left: 2%;
         width: 100vw;
         justify-items: center;
         min-width: 0px;
         max-width: 1000px;
         z-index: 0;
         position: relative;
-        top: 125px;
+        top: 110px;
+        margin-right: 0;
       }
 }
 
-@media (max-width: 484px) {
-  .toggle-container{
-    top: 100px;
-  }
-}

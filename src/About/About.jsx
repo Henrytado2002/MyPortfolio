@@ -19,7 +19,7 @@ function About() {
   return (
     <>
       <div className="CV-container">
-        <div className="text-container">
+        <div className="text-container" onScroll={()=>{console.log("scrolled the container")}}>
           
           <motion.h1 
               className="main-about-title"
