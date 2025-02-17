@@ -22,6 +22,7 @@
     margin-bottom: 15px;
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
+    justify-items: center;
 }
 
 .work-item-body.open {
@@ -44,4 +45,11 @@
 
 .work-item-container:nth-child(even) h2 {
     color: var(--background-color);
+}
+
+.work-item-screenshot{
+    width: 300px;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-top: 10px;
 }

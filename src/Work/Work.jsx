@@ -12,8 +12,8 @@ function Skills() {
     <div className="skills-container">
       <h1 className="skills-title">My work</h1>
         <div className="work-list-container">
-          <WorkItem name="bunga" image=""/>
-          <WorkItem name="banga" image="" />
+          <WorkItem name="PokéPlay!" image='./pokeplay_screen.png' tech={["javascript", "React JS"]} />
+          <WorkItem name="banga" image="" tech={["javascript", "React JS"]}/>
         </div>
     </div>
   );
