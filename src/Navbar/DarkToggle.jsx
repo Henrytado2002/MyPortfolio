@@ -23,7 +23,7 @@ export default function DarkToggle() {
             root.style.setProperty('--accent-color', '#356338');
             root.style.setProperty('--link-color', '#457f4a');
             root.style.setProperty('--mid-color', '#6b966e');
-            root.style.setProperty('--drawer-button-color', '#cdead0')
+            root.style.setProperty('--drawer-button-color', '#dbffdf')
             dispatch(changeImage('./H-black.png')); 
         }else{
             root.style.setProperty('--background-color', '#ECEBDE');
@@ -32,7 +32,7 @@ export default function DarkToggle() {
             root.style.setProperty('--accent-color', '#A59D84');
             root.style.setProperty('--link-color', '#a17540');
             root.style.setProperty('--mid-color', '#635a44');
-            root.style.setProperty('--drawer-button-color', '#7b6952')
+            root.style.setProperty('--drawer-button-color', '#86755e')
             dispatch(changeImage('./H-white.png'));
           }
     }, [isEnabled]);
