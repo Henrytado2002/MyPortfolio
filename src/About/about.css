@@ -10,6 +10,7 @@
     margin-top: 5vh;
     width: 50vw;
     color: var(--main-text-color);
+    height: min-content;
 }
 
 .last-asset {

@@ -43,7 +43,9 @@
   }
 
   .header .toggle{
-    background: black;
+    background: var(--drawer-button-color);
+    top: -165px;
+    right: -70px;
   }
 
   

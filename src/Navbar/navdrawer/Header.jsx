@@ -48,11 +48,11 @@ function Header() {
 
             {/* Menu */}
             <ul className="menu">
+                <DarkToggle/>
                 <li><button onClick={() => navigate('/')}>Home  </button></li>
                 <li><button onClick={() => navigate('/about')}>About </button></li>
                 <li><button onClick={() => navigate('/work')}>Work </button></li>
                 <li className='about-list-item' ><button onClick={() => { navigate('/contacts') }} >Contacts</button></li>
-                <div className='header-darktoggle-wrapper'><DarkToggle/></div>
             </ul>
 
             

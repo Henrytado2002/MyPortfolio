@@ -8,4 +8,7 @@ export default defineConfig({
     unoptimized: true
    },
   output: "export",
+  server: {
+    host: true
+  }
 });

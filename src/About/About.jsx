@@ -14,8 +14,12 @@ import "../Main/scrollbar.css";
 import "./about.css"
 import "../Main/index.css";
 import { motion} from "framer-motion";
+import { useEffect } from "react";
 
 function About() {
+  useEffect(()=>{
+    window.scrollTo(0, 1); // Scroll down slightly
+  },[])
   return (
     <>
       <div className="CV-container">
