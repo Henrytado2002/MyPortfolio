@@ -30,22 +30,22 @@ html{
   margin-top: 20px;
   padding: 10px 20px;
   border-radius: 20px;
-  border: 4px solid var(--highlight-text-color);
+  border: 4px solid var(--main-text-color);
   transition: ease 250ms;
 }
 
 .contact h1{
   font-size: 1.8em;
-  color: var(--highlight-text-color);
+  color: var(--main-text-color);
 }
 
 .contact p{
   margin-bottom: -20px;
-  color: var(--highlight-text-color);
+  color: var(--main-text-color);
 }
 
 .contact-img{
-  color: var(--highlight-text-color);
+  color: var(--main-text-color);
   font-size: 8em;
   
 }
@@ -109,7 +109,7 @@ html{
   position: absolute;
   transform: translate(-50%, -120%);
   padding: 8px 12px;
-  background-color: var(--link-color);
+  background-color: var(--highlight-text-color);
   color: var(--background-color);
   border-radius: 5px;
   font-size: 1.2em;

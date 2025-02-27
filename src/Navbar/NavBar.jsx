@@ -3,12 +3,13 @@ import { useEffect, useState } from "react";
 import "./navbar.css";
 import "../Main/index.css";
 import DarkToggle from "./DarkToggle";
+import Header from "./navdrawer/Header";
 
 function NavBar() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="navbar-container">
+      {window.screen.width>600 && <div className="navbar-container">
         <div className="navbar">
           <div className="button-collection">
             <button className="nav-button" onClick={() => navigate("/")}>Home</button>
@@ -18,7 +19,8 @@ function NavBar() {
           </div>
           <DarkToggle/>
         </div>
-      </div>
+      </div>}
+      {window.screen.width<=600 && <Header/>}
     </>
   );
 }

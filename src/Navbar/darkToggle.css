@@ -42,6 +42,10 @@
     transition: 200ms ease;
   }
 
+  .header .toggle{
+    background: black;
+  }
+
   
 .toggle::before {
     content: "";

@@ -1,87 +1,67 @@
-:root {
-    --background-color: black;
-    --highlight-text-color: #b5cfb7;
-    --main-text-color: #b5cfb7;
-    --accent-color: #000000;
-  }
-
-html{
-    overflow: hidden;
-}
-
-.CV-container{
+.CV-container {
     display: flex;
     justify-content: center;
     margin-top: 150px;
 }
 
-.text-container{
+.text-container {
     display: flex;
     flex-direction: column;
     margin-top: 5vh;
     width: 50vw;
-    height: 80vh;
-    color: var(--highlight-text-color);
+    color: var(--main-text-color);
 }
 
-.last-asset{
+.last-asset {
     min-height: 500px;
 }
 
-.text-container a{
-    color: var(--highlight-text-color);
+.text-container a {
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
-.text-container a:hover{
+.text-container a:hover {
     color: var(--link-color);
 }
 
-
-
-.text-container .header-container{
+.text-container .header-container {
     margin-top: 30px;
     margin-bottom: -10px;
 }
 
-.about-h1{
-    color: var(--highlight-text-color);
+.about-h1 {
+    color: var(--main-text-color);
     width: 80%;
 }
 
-.main-about-title{
+.main-about-title {
     font-size: 3rem;
     margin-bottom: 40px;
     width: 100%;
     text-align: center;
-    color: var(--highlight-text-color);
+    color: var(--main-text-color);
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
 }
 
-p{
+p {
     font-size: 1.5rem;
-    color: var(--highlight-text-color);
+    color: var(--main-text-color);
 }
 
-.about-img{
+.about-img {
     height: 40px;
     width: 40px;
     margin-right: 10px;
-}                                                                                                                                                                                                                                                                                                                                     
+}
 
- /* MOBILE */
+/* MOBILE */
 @media (max-width: 484px) {
-    .text-container{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5vh;
+    .text-container {
         width: 80vw;
-        height: 80vh;
-        color: var(--highlight-text-color);
     }
-    
-  }
+}

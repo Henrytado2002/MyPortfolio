@@ -56,7 +56,7 @@
       height: 120%;
       color: var(--background-color);
       margin-bottom: 40px;
-      background-color: var(--highlight-text-color);
+      background-color: var(--main-text-color);
       transition: ease 200ms;
     }
   }
@@ -99,8 +99,8 @@
     flex-direction: column;
   }
   .nav-button:active {
-    color: var(--accent-color);
-    background-color: var(--highlight-text-color);
+    color: var(--background-color);
+    background-color: var(--main-text-color);
   }
   .navbar {
     height: 150px;
