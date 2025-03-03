@@ -38,6 +38,12 @@ function Header() {
         };
     }, []);
 
+    const close_header =()=>{
+        setTimeout(()=>{
+            document.getElementById("menu-btn").checked = false;
+        },800)
+    }
+
     return (
         <header className="header" ref={menuRef}>
             {/* Menu Toggle */}
@@ -49,10 +55,10 @@ function Header() {
             {/* Menu */}
             <ul className="menu">
                 <DarkToggle/>
-                <li><button onClick={() => navigate('/')}>Home  </button></li>
-                <li><button onClick={() => navigate('/about')}>About </button></li>
-                <li><button onClick={() => navigate('/work')}>Work </button></li>
-                <li className='about-list-item' ><button onClick={() => { navigate('/contacts') }} >Contacts</button></li>
+                <li><button onClick={() => {navigate('/') ; close_header()}}>Home  </button></li>
+                <li><button onClick={() => {navigate('/about'); close_header()}}>About </button></li>
+                <li><button onClick={() => {navigate('/work'); close_header()}}>Work </button></li>
+                <li className='about-list-item' ><button onClick={() => { navigate('/contacts') ; close_header()}} >Contacts</button></li>
             </ul>
 
             
